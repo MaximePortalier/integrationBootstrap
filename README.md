@@ -1,38 +1,37 @@
-# Prérequis
+# Prerequisites
 
-Nodejs doit être installé
+Node.js must be installed.
 
-# Installer le projet
+# Installing the Project
 
 ```bash
 npm install
 ```
 
-
-# Lancer le serveur de développement
+# Running the Development Server
 
 ```bash
 npm run dev
 ```
 
-# Les dossiers
+# Directories
 
 ## /scss
-Il contiendra tout vos fichiers scss
+It will contain all your SCSS files.
 
 ## /public
 
-Il contiendra tous les assets publics.
-Exemple : Fonts, Images, etc ...
+It will contain all public assets.
+Example: Fonts, Images, etc...
 
-Par exemple, le dossier public contient une image monimage.png
+For example, the public directory contains an image named myimage.png.
 
-Vous pouvez accéder à une ressource dans le html ou scss ainsi
+You can access a resource in HTML or SCSS like this:
 
 ```html
-<img src="/monimage.png />
+<img src="/myimage.png" />
 ```
 
 ## src/main.js
 
-Pour ceux qui souhaitent faire du javascript, le point d'entré du javascript est main.js, vous pouvez importer d'autre fichiers javascript depuis ici
+For those who want to work with JavaScript, the entry point for JavaScript is main.js. You can import other JavaScript files from here.

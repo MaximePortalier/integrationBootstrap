@@ -1,4 +1,108 @@
 //Override des variables bootstrap scss ici
 
+
+
+$primary: #7749F8;
+$secondary: #ffffff;
+$fontWeight: 200;
+$ColorSomeText: #5227CC;
+$success: #28A745;
+;
+
+$mynewcolor:teal;
+
 @import "../../node_modules/bootstrap/scss/bootstrap";
 
+@mixin borderButton {
+    border: none;
+    border-radius: 5px;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.btn{
+    background-color:$secondary;
+    color: $primary;
+    @include borderButton;
+}
+
+
+.w-40 {
+    width: 40%;
+}
+
+.w-30 {
+    width: 30%;
+}
+
+input[type=text]::placeholder {
+    opacity: 0.4;
+}
+
+p {
+    font-size: 0.8em;
+}
+
+.bg-button-book {
+    background-color: #EBE5FC;
+}
+
+.fs-7 {
+    font-size: 0.6em;
+}
+
+.fs-0-5 {
+    font-size: 2.3em;
+}
+
+.position-absolute {
+    top:5%;
+    right:10%;
+}
+
+.bookColor {
+    color:$ColorSomeText;
+}
+
+.table {
+    border-collapse: separate;
+    border-spacing:0 12px;
+}
+
+
+.homeSection {
+    background-color: $primary;
+    color: $secondary;
+    height: 720px;
+    div {
+        header {
+            nav {
+                a {
+                    color: $secondary;
+                    font-weight: $fontWeight;
+                    font-size: 1.05em;
+                    &:nth-of-type(2) {
+                        opacity: 0.4;
+                    }
+                }
+            }
+        }
+        div {
+            div {
+                h1 {
+                    font-size: 2.7em;
+                }
+                p {
+                    line-height: 1.7em;
+                    width: 90%;
+                }
+                button {
+                    color: $ColorSomeText;
+                    padding: 12px 20px 12px 20px;
+                }
+            }
+        }
+    }
+}

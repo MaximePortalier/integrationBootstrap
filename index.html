@@ -13,6 +13,220 @@
   </head>
   <body>
     
+    <div class="homeSection">
+      <div class="d-flex justify-content-center align-items-center h-100 d-md-block ">
+        <header class="p-md-5 pb-md-4 d-none d-md-block">
+          <nav class="navbar navbar-light justify-content-end d-none d-md-flex">
+            <a class="navbar-brand p-2 pe-3" href="#">Acheter des livres</a>
+            <a class="navbar-brand p-2" href="#">Consulter des livres</a>
+          </nav>
+        </header>
+        <div class="container d-flex col-9 col-md-8 align-items-center justify-content-center">
+          <div class="col-12 col-lg-6 ps-md-4">
+            <h1 class="fw-bold pb-2 pb-md-0">Acheter des livres, c'est facile</h1>
+            <p class="fw-light fs-6 pb-2">Lorem ipsum dolor sit amet consectetur. Laoreet nunc auctor metus et eu dui mattis. Donec nunc tortor convallis massa cras ac. Amet vulputate faucibus amet nibh nunc non. Est felis aenean risus purus.</p>
+            <button class="btn btn-primary fw-semibold">Voir nos livres</button>
+          </div>
+          <div class="col-6 d-md-flex justify-content-end pe-4 d-none">
+            <img src="/images/books.png" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="d-flex justify-content-center">
+      <h2 class="text-center fw-semibold pt-md-5 pt-4 opacity-75 col-6">Consulter les classiques</h2>
+    </div>
+    <div class="d-flex justify-content-center">
+      <form class="container-fluid col-9 col-lg-5">
+        <div class="input-group pt-4">
+          <span class="input-group-text" id="basic-addon1">🔍</span>
+          <input type="text" class="form-control" placeholder="Rechercher un livre" aria-label="Recherche" aria-describedby="basic-addon1">
+        </div>
+      </form>
+    </div>
+    <div class="col-12 d-flex justify-content-center pt-4">
+      <div class="alert alert-warning alert-dismissible fade show col-3 justify-content-evenly align-items-center px-1 py-3 border-warning d-none d-md-flex" role="alert">
+        <p class="m-0">⚠️</p>
+        <p class="m-0 fw-lighter text-black">Attention les frais de port ne sont pas inclus</p>
+        <button type="button" class="btn-close p-0 position-relative" data-bs-dismiss="alert" aria-label="Close"></button>
+      </div>
+    </div>
+
+    <ul class="d-flex justify-content-evenly align-items-center container pt-3 list-unstyled flex-column flex-md-row">
+      <li class="d-flex">
+        <div class="position-relative">
+          <p class="position-absolute bg-button-book px-2 py-1 fs-7 fw-bold rounded bookColor">Best Seller</p>
+          <img src="/images/book.png" alt="Book Image" />
+          <p class="fw-bold pt-2 m-0 fs-6">Baudelaire</p>
+          <p class="fs-6 text-black-50">Les Fleurs du mal</p>
+        </div>
+      </li>
+      <li class="d-flex">
+        <div class="position-relative">
+          <p class="d-none d-md-block position-absolute bg-button-book px-2 py-1 fs-7 fw-bold rounded bookColor">Best Seller</p>
+          <img src="/images/book.png" alt="Book Image" />
+          <p class="fw-bold pt-2 m-0 fs-6">Baudelaire</p>
+          <p class="fs-6 text-black-50">Les Fleurs du mal</p>
+        </div>
+      </li>
+      <li class="d-flex">
+        <div class="position-relative">
+          <p class="position-absolute bg-danger px-2 py-1 fs-7 fw-bold rounded-4 text-white">Rupture de stock</p>
+          <img src="/images/book.png" alt="Book Image" />
+          <p class="fw-bold pt-2 m-0 fs-6">Baudelaire</p>
+          <p class="fs-6 text-black-50">Les Fleurs du mal</p>
+        </div>
+      </li>
+      <li class="d-none d-md-block">
+        <img src="/images/book.png" alt="Book Image" />
+        <p class="fw-bold pt-2 m-0 fs-6">Baudelaire</p>
+        <p class="fs-6 text-black-50">Les Fleurs du mal</p>
+      </li>
+    </ul>
+    <ul class="d-md-flex d-none justify-content-evenly container pt-5 list-unstyled">
+      <li>
+        <img src="/images/book.png" alt="Book Image" />
+        <p class="fw-bold pt-2 m-0 fs-6">Baudelaire</p>
+        <p class="fs-6 text-black-50">Les Fleurs du mal</p>
+      </li>
+      <li>
+        <img src="/images/book.png" alt="Book Image" />
+        <p class="fw-bold pt-2 m-0 fs-6">Baudelaire</p>
+        <p class="fs-6 text-black-50">Les Fleurs du mal</p>
+      </li>
+      <li>
+        <img src="/images/book.png" alt="Book Image" />
+        <p class="fw-bold pt-2 m-0 fs-6">Baudelaire</p>
+        <p class="fs-6 text-black-50">Les Fleurs du mal</p>
+      </li>
+      <li>
+        <img src="/images/book.png" alt="Book Image" />
+        <p class="fw-bold pt-2 m-0 fs-6">Baudelaire</p>
+        <p class="fs-6 text-black-50">Les Fleurs du mal</p>
+      </li>
+    </ul>
+    
+
+    <div aria-label="..." class="pt-5 pb-4">
+      <ul class="pagination pagination-sm d-flex justify-content-center">
+        <li class="page-item active p-2" aria-current="page">
+          <span class="page-link fs-6 px-3 py-2 rounded">1</span>
+        </li>
+        <li class="page-item p-2"><a class="page-link fs-6 text-black px-3 py-2 rounded" href="#">2</a></li>
+        <li class="page-item p-2"><a class="page-link fs-6 text-black px-3 py-2 rounded" href="#">3</a></li>
+        <li class="page-item p-2"><a class="page-link fs-6 text-black px-3 py-2 rounded" href="#">4</a></li>
+      </ul>
+    </div>
+
+    <div class="bg-primary py-4">
+      <div class="container d-flex flex-column flex-md-row col-9 align-items-center justify-content-between text-white py-5">
+        <div class="col-6 d-flex justify-content-center pe-0 pe-md-4">
+          <img class="col-10 col-md-6 h-auto" src="/images/book.png" />
+        </div>
+        <div class="col-12 col-md-6 ps-md-4 d-flex d-md-block align-items-center justify-content-center flex-column pt-5 pt-md-0">
+          <h1 class="fw-bold pb-md-2 fs-0-5 col-12">Notre best seller</h1>
+          <p class="fw-light fs-6 pb-2 col-12 col-md-10 lh-lg text-center text-md-start">Lorem ipsum dolor sit amet consectetur. Laoreet nunc auctor metus et eu dui mattis. Donec nunc tortor convallis massa cras ac. Amet vulputate faucibus amet nibh nunc non. Est felis aenean risus purus.</p>
+          <button class="btn btn-primary fw-semibold py-2 px-4">Acheter</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="titleSection">
+      <h2 class="text-center fw-semibold py-5 opacity-75 fs-0-5">Top des ventes</h2>
+    </div>
+    
+    <div class="container col-11 col-md-6 d-flex justify-content-center align-items-center pb-5">
+        <table class="table table-borderless text-start align-middle">
+          <thead>
+            <tr>
+              <th scope="col" class="col-1">#</th>
+              <th scope="col" class="col-7 col-md-4">Nom</th>
+              <th scope="col" class="col-4 d-none d-md-table-cell">Date de sortie</th>
+              <th scope="col">Disponibilité</th>
+            </tr>
+          </thead>
+          <tbody class="table-group-divider">
+            <tr>
+              <th scope="row">1</th>
+              <td class="fw-light text-truncate"><div class="text-truncate truncate">Les Fleurs du mal</div></td>
+              <td class="fw-light d-none d-md-table-cell">21/12/2021</td>
+              <td class="badge bg-success text-white rounded-pill fs-7 fw-medium px-2 py-1">Disponible</td>
+            </tr>
+            <tr>
+              <th scope="row">2</th>
+              <td class="fw-light"><div class="text-truncate col-8 col-md-12">Voyage au bout de la nuit</div></td>
+              <td class="fw-light d-none d-md-table-cell">12/08/2020</td>
+              <td class="badge bg-danger text-white rounded-pill fs-7 fw-medium px-2 py-1">Rupture</td>
+            </tr>
+            <tr>
+              <th scope="row">3</th>
+              <td class="fw-light text-truncate"><div class="text-truncate truncate">Don Quichotte</div></td>
+              <td class="fw-light d-none d-md-table-cell">05/02/2016</td>
+              <td class="badge bg-success text-white rounded-pill fs-7 fw-medium px-2 py-1">Disponible</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="d-flex justify-content-center bg-primary pt-3">
+        <div class="d-flex flex-column flex-md-row justify-content-evenly text-white py-5 gap-5">
+          <div class="px-4">
+            <ul class="list-unstyled">
+              <li class="pb-2">
+                <a href="" class="m-0 fs-6 text-white text-decoration-none"><strong>Navigation</strong></a>
+              </li>
+              <li class="pb-2">
+                <a href="" class="m-0 fs-6 fw-light text-white text-decoration-none">News</a>
+              </li>
+              <li class="pb-2">
+                <a href="" class="m-0 fs-6 fw-light text-white text-decoration-none">Acheter des livres</a>
+              </li>
+              <li class="pb-2">
+                <a href="" class="m-0 fs-6 fw-light text-white text-decoration-none">Consulter des livres</a>
+              </li>
+              <li class="pb-2">
+                <a href="" class="m-0 fs-6 fw-light text-white text-decoration-none">Best Sellers</a>
+              </li>
+            </ul>
+          </div>
+          <div class="px-4">
+            <ul class="list-unstyled">
+              <li class="pb-2">
+                <a href="" class="m-0 fs-6 pb-2 text-white text-decoration-none"><strong>Aide</strong></a>
+              </li>
+              <li class="pb-2">
+                <a href="" class="m-0 fs-6 fw-light text-white text-decoration-none">Prix</a>
+              </li>
+              <li class="pb-2">
+                <a href="" class="m-0 fs-6 fw-light text-white text-decoration-none">Comparer</a>
+              </li>
+              <li class="pb-2">
+                <a href="" class="m-0 fs-6 fw-light text-white text-decoration-none">Catalogue</a>
+              </li>
+              <li class="pb-2">
+                <a href="" class="m-0 fs-6 fw-light text-white text-decoration-none">Sav</a>
+              </li>
+            </ul>
+          </div>
+          <div class="px-4">
+            <ul class="list-unstyled">
+              <li class="pb-2">
+                <a href="" class="m-0 fs-6 pb-2 text-white text-decoration-none"><strong>Informations</strong></a>
+              </li>
+              <li class="pb-2">
+                <a href="" class="m-0 fs-6 fw-light text-white text-decoration-none">Conditions d'utilisation</a>
+              </li>
+              <li class="pb-2">
+                <a href="" class="m-0 fs-6 fw-light text-white text-decoration-none">Mentions légales</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      
+      
+    
     <script type="module" src="src/main.js"></script>
   </body>
 </html>
